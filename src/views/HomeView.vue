@@ -1,11 +1,4 @@
 <template>
-      <header class="header">
-      <div class="header__logo">
-        <img src="./logo.png" alt="Next Home Logo" />
-      </div>
-    </header>
-
-
   <title>Padaria Grão de Ouro</title>
 
   <main>
