@@ -4,18 +4,17 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" width="125" height="125" />
-
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/loja">loja</RouterLink>
-        <RouterLink to="/cadastro">Cadastro</RouterLink>
-        <RouterLink to="/vendas">Vendas</RouterLink>
-      </nav>
-    </div>
+    <img alt="nexthome logo" class="logo" width="125" height="125" />
+    <nav class="nav">
+      <a href="/" class="nav-link">Home</a>
+      <a href="Loja" class="nav-link">Loja</a>
+      <a href="/cadastro" class="nav-link">Cadastro</a>
+      <a href="/vendas" class="nav-link">Vendas</a>
+      <span class="cart-icon">🛒</span>
+      <span class="cart-count">(0)</span>
+    </nav>
   </header>
-<RouterView/>
+  <RouterView />
 </template>
 
 <style scoped>
@@ -78,7 +77,9 @@ nav ul {
   padding: 0;
   text-align: right;
 }
-
+nav {
+  float: right;
+}
 nav li {
   display: inline-block;
   margin-left: 20px;
