@@ -1,5 +1,8 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+
+
+
 </script>
 
 <template>
@@ -14,7 +17,11 @@ import { RouterLink, RouterView } from 'vue-router'
       <span class="cart-count">(0)</span>
     </nav>
   </header>
+
+
+
   <RouterView />
+  
 </template>
 
 <style scoped>

@@ -18,8 +18,8 @@
         <h2>Pães frescos</h2>
         <p>Explore a nossa variedade de pães frescos assados diariamente</p>
         <div class="grid">
-          <div class="item">
-            <img alt="Pães doces" />
+          <div class="paes">
+            <img src="/src/imagens/image.png" alt="Pães doces"  />
             <h3>Pães doces</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatum
@@ -27,8 +27,8 @@
               eaque! Quia amet perspiciatis, asperiores molestiae error architecto deserunt fuga?.
             </p>
           </div>
-          <div class="item">
-            <img alt="Pães integrais" />
+          <div class="paes">
+            <img src="/src/imagens/image copy.png" alt="Pães integrais" />
             <h3>Pães integrais</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatum
@@ -36,7 +36,7 @@
               eaque! Quia amet perspiciatis, asperiores molestiae error architecto deserunt fuga?.
             </p>
           </div>
-          <div class="item">
+          <div class="paes">
             <img alt="Pães especiais" />
             <h3>Pães especiais</h3>
             <p>
@@ -259,7 +259,20 @@ nav a {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
 }
-
+.paes {
+  color: white;
+  background-color: #333;
+  text-align: left;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 30px;
+}
+.paes img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
 .item {
   text-align: left;
   border: 1px solid #ddd;

@@ -1,12 +1,14 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
   <div class="page">
     <header class="header">
       <div class="container">
         <h1 class="header__title">Pão fresco diariamente</h1>
-        <p class="header__text">Encontre os melhores produtos de padaria e faça sua compra online com facilidade e segurança.</p>
+        <p class="header__text">
+          Encontre os melhores produtos de padaria e faça sua compra online com facilidade e
+          segurança.
+        </p>
       </div>
     </header>
 
@@ -28,14 +30,22 @@
       <section class="section section--cards">
         <div class="container">
           <div class="card">
-            <img class="card__image" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Fvetores-gratis%2Fhomem-escrevendo-no-papel_1001954.htm&psig=AOvVaw1Kq_qX2oK9_u8R7H4Q7Xg8&ust=1689771451223000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE&opi=89978449&form=W_h&surl=1&oi=image&q=homem%20escrevendo%20em%20papel&cshid=57784584-4195-4025-9c22-ef93890745b9&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE" alt="Registro de Vendas">
+            <img
+              class="card__image"
+              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Fvetores-gratis%2Fhomem-escrevendo-no-papel_1001954.htm&psig=AOvVaw1Kq_qX2oK9_u8R7H4Q7Xg8&ust=1689771451223000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE&opi=89978449&form=W_h&surl=1&oi=image&q=homem%20escrevendo%20em%20papel&cshid=57784584-4195-4025-9c22-ef93890745b9&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE"
+              alt="Registro de Vendas"
+            />
             <h3 class="card__title">Registro de Vendas</h3>
             <p class="card__text">Registre todas as vendas de pão e produtos de padaria.</p>
             <button class="card__button">Detalhes</button>
           </div>
 
           <div class="card">
-            <img class="card__image" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Fvetores-gratis%2Fhomem-escrevendo-no-papel_1001954.htm&psig=AOvVaw1Kq_qX2oK9_u8R7H4Q7Xg8&ust=1689771451223000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE&opi=89978449&form=W_h&surl=1&oi=image&q=homem%20escrevendo%20em%20papel&cshid=57784584-4195-4025-9c22-ef93890745b9&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE" alt="Relatório de Vendas">
+            <img
+              class="card__image"
+              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Fvetores-gratis%2Fhomem-escrevendo-no-papel_1001954.htm&psig=AOvVaw1Kq_qX2oK9_u8R7H4Q7Xg8&ust=1689771451223000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE&opi=89978449&form=W_h&surl=1&oi=image&q=homem%20escrevendo%20em%20papel&cshid=57784584-4195-4025-9c22-ef93890745b9&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE"
+              alt="Relatório de Vendas"
+            />
             <h3 class="card__title">Relatório de Vendas</h3>
             <p class="card__text">Acompanhe e analise suas vendas de forma prática e eficiente.</p>
             <button class="card__button">Ver</button>
@@ -46,23 +56,49 @@
       <section class="section section--cards">
         <div class="container">
           <div class="card">
-            <img class="card__image" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Fvetores-gratis%2Fhomem-escrevendo-no-papel_1001954.htm&psig=AOvVaw1Kq_qX2oK9_u8R7H4Q7Xg8&ust=1689771451223000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE&opi=89978449&form=W_h&surl=1&oi=image&q=homem%20escrevendo%20em%20papel&cshid=57784584-4195-4025-9c22-ef93890745b9&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE" alt="Desenvolvendo um site de padaria online">
+            <img
+              class="card__image"
+              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Fvetores-gratis%2Fhomem-escrevendo-no-papel_1001954.htm&psig=AOvVaw1Kq_qX2oK9_u8R7H4Q7Xg8&ust=1689771451223000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE&opi=89978449&form=W_h&surl=1&oi=image&q=homem%20escrevendo%20em%20papel&cshid=57784584-4195-4025-9c22-ef93890745b9&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE"
+              alt="Desenvolvendo um site de padaria online"
+            />
             <h3 class="card__title">Desenvolvendo um site de padaria online</h3>
-            <p class="card__text">Aprenda a criar uma plataforma para sua padaria em minutos, gerencie pedidos, promoções e registros de vendas. O menu intuitivo e as opções de personalização deixam a experiência de compra mais fácil para seus clientes e aumentam o número de pedidos.</p>
+            <p class="card__text">
+              Aprenda a criar uma plataforma para sua padaria em minutos, gerencie pedidos,
+              promoções e registros de vendas. O menu intuitivo e as opções de personalização deixam
+              a experiência de compra mais fácil para seus clientes e aumentam o número de pedidos.
+            </p>
           </div>
 
           <div class="card">
-            <img class="card__image" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Fvetores-gratis%2Fhomem-escrevendo-no-papel_1001954.htm&psig=AOvVaw1Kq_qX2oK9_u8R7H4Q7Xg8&ust=1689771451223000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE&opi=89978449&form=W_h&surl=1&oi=image&q=homem%20escrevendo%20em%20papel&cshid=57784584-4195-4025-9c22-ef93890745b9&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE" alt="Desfrute dos melhores pães frescos da padaria Grilo de Ouro.">
-            <h3 class="card__title">Desfrute dos melhores pães frescos da padaria Grilo de Ouro.</h3>
-            <p class="card__text">Desfrute da qualidade que apenas uma padaria tradicional e de confiança pode oferecer. Cada pedaço preparado com os melhores ingredientes e maciez sem igual. Com cada mordida, você saboreia a dedicação e expertise imbatíveis da nossa equipe em preparar produtos frescos e deliciosos. </p>
+            <img
+              class="card__image"
+              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Fvetores-gratis%2Fhomem-escrevendo-no-papel_1001954.htm&psig=AOvVaw1Kq_qX2oK9_u8R7H4Q7Xg8&ust=1689771451223000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE&opi=89978449&form=W_h&surl=1&oi=image&q=homem%20escrevendo%20em%20papel&cshid=57784584-4195-4025-9c22-ef93890745b9&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE"
+              alt="Desfrute dos melhores pães frescos da padaria Grilo de Ouro."
+            />
+            <h3 class="card__title">
+              Desfrute dos melhores pães frescos da padaria Grilo de Ouro.
+            </h3>
+            <p class="card__text">
+              Desfrute da qualidade que apenas uma padaria tradicional e de confiança pode oferecer.
+              Cada pedaço preparado com os melhores ingredientes e maciez sem igual. Com cada
+              mordida, você saboreia a dedicação e expertise imbatíveis da nossa equipe em preparar
+              produtos frescos e deliciosos.
+            </p>
           </div>
         </div>
       </section>
 
       <section class="section section--call-to-action">
         <div class="container">
-          <p class="section__text">Os pães fresquinhos do Grilo de Ouro são simplesmente deliciosos! Sempre compre aqui, para garantir qualidade e sabor para sua família.</p>
-          <img class="section__image" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Fvetores-gratis%2Fhomem-escrevendo-no-papel_1001954.htm&psig=AOvVaw1Kq_qX2oK9_u8R7H4Q7Xg8&ust=1689771451223000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE&opi=89978449&form=W_h&surl=1&oi=image&q=homem%20escrevendo%20em%20papel&cshid=57784584-4195-4025-9c22-ef93890745b9&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE" alt="Grilo de Ouro">
+          <p class="section__text">
+            Os pães fresquinhos do Grilo de Ouro são simplesmente deliciosos! Sempre compre aqui,
+            para garantir qualidade e sabor para sua família.
+          </p>
+          <img
+            class="section__image"
+            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Fvetores-gratis%2Fhomem-escrevendo-no-papel_1001954.htm&psig=AOvVaw1Kq_qX2oK9_u8R7H4Q7Xg8&ust=1689771451223000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE&opi=89978449&form=W_h&surl=1&oi=image&q=homem%20escrevendo%20em%20papel&cshid=57784584-4195-4025-9c22-ef93890745b9&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE"
+            alt="Grilo de Ouro"
+          />
         </div>
       </section>
     </main>
@@ -71,7 +107,9 @@
       <div class="container">
         <div class="footer__column">
           <h3 class="footer__title">Clientes</h3>
-          <p class="footer__text">Registre suas vendas e tenha um controle total de seu negócio de padaria.</p>
+          <p class="footer__text">
+            Registre suas vendas e tenha um controle total de seu negócio de padaria.
+          </p>
           <div class="footer__social">
             <a href="#" class="footer__social-link"><i class="fab fa-facebook-f"></i></a>
             <a href="#" class="footer__social-link"><i class="fab fa-instagram"></i></a>
@@ -82,18 +120,14 @@
 
         <div class="footer__column">
           <h3 class="footer__title">Redes</h3>
-          <p class="footer__text">
-            (99) 99999-9999
-          </p>
-          <p class="footer__text">
-            grilodeouro@gmail.com
-          </p>
+          <p class="footer__text">(99) 99999-9999</p>
+          <p class="footer__text">grilodeouro@gmail.com</p>
         </div>
 
         <div class="footer__column">
           <h3 class="footer__title">Vídeos</h3>
           <p class="footer__text">Digite seu email aqui</p>
-          <input type="email" class="footer__input" placeholder="Digite seu email">
+          <input type="email" class="footer__input" placeholder="Digite seu email" />
           <button class="footer__button">Enviar</button>
         </div>
       </div>
