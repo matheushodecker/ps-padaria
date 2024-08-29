@@ -37,7 +37,7 @@
             </p>
           </div>
           <div class="paes">
-            <img alt="Pães especiais" />
+            <img src="/src/imagens/rosquinha.jpeg" alt="Pães especiais" />
             <h3>Pães especiais</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatum
@@ -231,7 +231,7 @@ nav a {
 
 /* Hero section styles */
 .hero {
-  background-image: url('hero.jpg');
+  background-image: url('src/imagens/5de2bb4e-1910-4d4a-82b3-f3f9e40f08d0.jpeg');
   background-size: cover;
   background-position: center;
   padding: 100px 0;
