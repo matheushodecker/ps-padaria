@@ -7,7 +7,7 @@ import { RouterView } from 'vue-router'
 
 <template>
   <header class="fixed">
-    <img alt="nexthome logo" class="logo" width="125" height="125" />
+    <img src="/src/imagens/logo.png" alt="grao de ouro logo" class="logo" width="125" height="125" />
     <nav class="nav">
       <a href="/" class="nav-link">Home</a>
       <a href="Loja" class="nav-link">Loja</a>
@@ -74,8 +74,9 @@ header {
   border-bottom: 1px solid #ddd;
 }
 
-.logo img {
-  max-width: 200px;
+.logo{
+  max-width: 50px;
+  max-height: 50px;
 }
 
 nav ul {
