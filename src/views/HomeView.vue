@@ -315,7 +315,7 @@ nav a {
 
 /* Avaliações section styles */
 .avaliacoes {
-  background-color: #f0f0f0;
+  background-color: #A57C5B;
   padding: 40px 0;
   text-align: center;
 }
@@ -328,7 +328,7 @@ nav a {
 
 /* Footer styles */
 footer {
-  background-color: #333;
+  background-color: #4D4036;
   color: #fff;
   padding: 40px 0;
 }
