@@ -1,12 +1,12 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 
 
 
 </script>
 
 <template>
-  <header>
+  <header class="fixed">
     <img alt="nexthome logo" class="logo" width="125" height="125" />
     <nav class="nav">
       <a href="/" class="nav-link">Home</a>
@@ -234,6 +234,13 @@ input[type='email'] {
   border: 1px solid #ddd;
   border-radius: 5px;
   margin-bottom: 10px;
+}
+.fixed{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 99%;
+  background-color: #E3C09C;
 }
 
 /* Responsive styles */
