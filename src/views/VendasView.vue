@@ -41,17 +41,6 @@
               <button class="card__button">Detalhes</button>
             </div>
 
-<<<<<<< HEAD
-          <div class="card">
-            <img
-              class="card__image"
-              src=""
-              alt="Relatório de Vendas"
-            />
-            <h3 class="card__title">Relatório de Vendas</h3>
-            <p class="card__text">Acompanhe e analise suas vendas de forma prática e eficiente.</p>
-            <button class="card__button">Ver</button>
-=======
             <div class="card card2">
               <img
                 class="card__image"
@@ -62,7 +51,6 @@
               <p class="card__text">Acompanhe e analise suas vendas de forma prática e eficiente.</p>
               <button class="card__button">Ver</button>
             </div>
->>>>>>> ed64a95e3181932ae102c32df61c8a2a048194b0
           </div>
         </div>
       </section>
@@ -167,9 +155,8 @@
 
 .header {
   background-color: #f0f0f0;
-  padding: 100psx;
+  padding: 20px 0;
   text-align: center;
-  background-image: url(/src/imagens/ee0b56d0-48fb-49e9-abdb-d7bdfab1abf7.jpeg);
 }
 
 .header__title {
