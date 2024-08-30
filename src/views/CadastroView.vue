@@ -39,11 +39,7 @@
     <div class="content">
       <div class="card">
         <img
-<<<<<<< HEAD
-          src="/src/imagens/72527660-6cf9-45e8-9e89-93c85ba72111.jpeg"
-=======
         src="\src\imagens\72527660-6cf9-45e8-9e89-93c85ba72111.jpeg"
->>>>>>> ed64a95e3181932ae102c32df61c8a2a048194b0
           alt="Cookies"
         />
         <div class="card-body">
@@ -56,11 +52,7 @@
       </div>
       <div class="card">
         <img
-<<<<<<< HEAD
-          src="/src/imagens/30e8b0e4-0e95-4b3d-a046-02abb5afd5a2.jpeg"
-=======
           src="\src\imagens\30e8b0e4-0e95-4b3d-a046-02abb5afd5a2.jpeg"
->>>>>>> ed64a95e3181932ae102c32df61c8a2a048194b0
           alt="Cupcakes"
         />
         <div class="card-body">
