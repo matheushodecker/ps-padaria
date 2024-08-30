@@ -85,8 +85,13 @@ nav ul {
   padding: 0;
   text-align: right;
 }
+.nav-link{
+  margin-left: 25px;
+}
+
 nav {
   float: right;
+  margin-right: 100px;
 }
 nav li {
   display: inline-block;
