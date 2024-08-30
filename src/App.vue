@@ -49,6 +49,9 @@ h3 {
   margin-top: 0;
   margin-bottom: 20px;
 }
+a{
+  font-size: 20px;
+}
 
 p {
   text-align: center;
@@ -96,6 +99,7 @@ nav ul {
 nav {
   float: right;
   margin-right: 100px;
+  margin-top: 20px;
 }
 nav li {
   display: inline-block;
