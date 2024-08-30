@@ -98,7 +98,7 @@
               <li><strong style="color: maroon;">15</strong> Tipos de qualidade</li>
             </ul>
           </div>
-          <div class="item">
+          <div class="ite">
             <img alt="Mão segurando pão" src="/src/imagens/eeede4bf-1154-410e-b481-8f2a3c94ca28.jpeg"/>
           </div>
         </div>
@@ -283,7 +283,12 @@ nav a {
   height: auto;
   margin-bottom: 20px;
   border-radius: 30px;
+  transition: transform 0.5s;
 }
+.paes img:hover{
+  transform: scale(1.1);
+}
+
 .item2{
   text-align: left;
   border: 1px solid #ddd;
@@ -292,6 +297,15 @@ nav a {
   margin-right: 20px;
   border-radius: 25px ;
 }
+.ite{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  text-align: left;
+  padding: 20px;
+}
+
 .item {
   text-align: left;
   padding: 20px;
@@ -302,6 +316,11 @@ nav a {
   height: auto;
   margin-bottom: 20px;
   border-radius: 15px;
+  transition: transform 0.5s;
+}
+.item img:hover{
+ animation-duration: 1s;
+ transform: scale(1.12);
 }
 
 /* Pães em destaque section styles */
