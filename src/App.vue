@@ -25,6 +25,10 @@ import { RouterView } from 'vue-router'
 </template>
 
 <style scoped>
+
+.nav-link:hover {
+  text-decoration: underline;
+}
 body {
   font-family: sans-serif;
   margin: 0;
