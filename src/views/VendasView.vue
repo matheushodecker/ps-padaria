@@ -43,7 +43,7 @@
           <div class="card">
             <img
               class="card__image"
-              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Fvetores-gratis%2Fhomem-escrevendo-no-papel_1001954.htm&psig=AOvVaw1Kq_qX2oK9_u8R7H4Q7Xg8&ust=1689771451223000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE&opi=89978449&form=W_h&surl=1&oi=image&q=homem%20escrevendo%20em%20papel&cshid=57784584-4195-4025-9c22-ef93890745b9&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE"
+              src=""
               alt="Relatório de Vendas"
             />
             <h3 class="card__title">Relatório de Vendas</h3>
@@ -152,8 +152,9 @@
 
 .header {
   background-color: #f0f0f0;
-  padding: 20px 0;
+  padding: 100psx;
   text-align: center;
+  background-image: url(/src/imagens/ee0b56d0-48fb-49e9-abdb-d7bdfab1abf7.jpeg);
 }
 
 .header__title {

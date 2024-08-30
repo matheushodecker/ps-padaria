@@ -16,7 +16,7 @@
     <div class="content">
       <div class="card">
         <img
-          src="https://images.unsplash.com/photo-1586497540021-40ffb083909a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          src="/src/imagens/72527660-6cf9-45e8-9e89-93c85ba72111.jpeg"
           alt="Cookies"
         />
         <div class="card-body">
@@ -29,7 +29,7 @@
       </div>
       <div class="card">
         <img
-          src="https://images.unsplash.com/photo-1576618249529-07f20b72f1a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          src="/src/imagens/30e8b0e4-0e95-4b3d-a046-02abb5afd5a2.jpeg"
           alt="Cupcakes"
         />
         <div class="card-body">

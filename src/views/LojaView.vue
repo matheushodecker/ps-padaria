@@ -4,23 +4,33 @@
       <div class="container">
         <div class="grid">
           <div class="item">
-            <img alt="Pão em destaque 1" />
+            <img alt="Pão em destaque 1" src="/src/imagens/caneta.jpeg" />
             <h3>Pão em destaque 1</h3>
             <p>R$10,00</p>
           </div>
           <div class="item">
-            <img alt="Pão em destaque 2" />
+            <img alt="Pão em destaque 2" src="/src/imagens/feb76bc5-6389-47f5-b9f1-4612fb44b1a1.jpeg"/>
             <h3>Pão em destaque 2</h3>
             <p>R$12,00</p>
           </div>
           <div class="item">
-            <img alt="Pão em destaque 3" />
+            <img alt="Pão em destaque 3" src="/src/imagens/ee0b56d0-48fb-49e9-abdb-d7bdfab1abf7.jpeg"/>
             <h3>Pão em destaque 3</h3>
             <p>R$15,00</p>
           </div>
           <div class="item">
-            <img alt="Pão em destaque 4" />
+            <img alt="Pão em destaque 4" src="/src/imagens/0bc39858-cec0-471c-a29b-460ec69d6099.jpeg"/>
             <h3>Pão em destaque 4</h3>
+            <p>R$8,00</p>
+          </div>
+          <div class="item">
+            <img alt="Pão em destaque 5" src="/src/imagens/fdc79e9c-c0c3-43d9-b64a-fd0e209aa959.jpeg"/>
+            <h3>Pão em destaque 5</h3>
+            <p>R$12,00</p>
+          </div>
+          <div class="item">
+            <img alt="Pão em destaque 6" src="/src/imagens/06033385-aea0-42de-8d58-431b460cff17.jpeg"/>
+            <h3>Pão em destaque 6</h3>
             <p>R$8,00</p>
           </div>
         </div>
@@ -29,19 +39,19 @@
     <section class="sobre">
       <div class="container">
         <div class="grid">
-          <div class="item">
-            <h2>Padaria Grão de Ouro</h2>
-            <p>
+          <div class="item2">
+            <h2 style="font-size: 40px; margin-top: 50px;">Padaria Grão de Ouro</h2>
+            <p style="margin: 100px;">
               Conhecemos as necessidades especiais do pão e da farinha. Com mais de 10 anos de
               experiência, garantimos qualidade em cada pedaço.
             </p>
-            <ul>
-              <li><strong>150+</strong> Sabores diversos</li>
-              <li><strong>15</strong> Tipos de qualidade</li>
+            <ul style="font-size: 20px;margin-left: 30px;">
+              <li><strong style="color: maroon;">150+</strong> Sabores diversos</li>
+              <li><strong style="color: maroon;">15</strong> Tipos de qualidade</li>
             </ul>
           </div>
           <div class="item">
-            <img alt="Mão segurando pão" />
+            <img alt="Mão segurando pão" src="/src/imagens/eeede4bf-1154-410e-b481-8f2a3c94ca28.jpeg" />
           </div>
         </div>
       </div>
@@ -211,10 +221,16 @@ nav a {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
 }
-
-.item {
+.item2{
   text-align: left;
   border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 25px ;
+}
+.item {
+  text-align: left;
   padding: 20px;
 }
 
@@ -222,6 +238,12 @@ nav a {
   max-width: 100%;
   height: auto;
   margin-bottom: 20px;
+  border-radius: 15px;
+  transition: transform 0.5s;
+}
+.item img:hover{
+ animation-duration: 1s;
+ transform: scale(1.12);
 }
 
 /* Pães em destaque section styles */
@@ -254,7 +276,7 @@ nav a {
 
 /* Avaliações section styles */
 .avaliacoes {
-  background-color: #f0f0f0;
+  background-color: #A57C5B;
   padding: 40px 0;
   text-align: center;
 }
@@ -267,7 +289,7 @@ nav a {
 
 /* Footer styles */
 footer {
-  background-color: #333;
+  background-color: #4D4036;
   color: #fff;
   padding: 40px 0;
 }
