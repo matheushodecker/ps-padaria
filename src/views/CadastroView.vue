@@ -3,7 +3,30 @@
 </script>
 
 <template>
-
+<div class="container">
+    <div class="title">
+      <h1>Cadastro de Clientes</h1>
+      <p>
+        Registre-se agora para ter acesso exclusivo a produtos frescos e deliciosos da nossa
+        padaria.
+      </p>
+  
+      <p>Preencha o formulário abaixo para se cadastrar e receber novidades da padaria.</p>
+    </div>
+    <section class="formulario">
+      <div class="form">
+        <div class="form-group">
+          <label for="name">Nome do Cliente:</label>
+          <input type="text" id="name" placeholder="Digite seu nome aqui" />
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" placeholder="Digite seu e-mail aqui" />
+        </div>
+        <button class="btn">cadastrar</button>
+      </div>
+    </section>
+  </div>
 
   <div class="container">
     <div class="header">
@@ -16,7 +39,11 @@
     <div class="content">
       <div class="card">
         <img
+<<<<<<< HEAD
           src="/src/imagens/72527660-6cf9-45e8-9e89-93c85ba72111.jpeg"
+=======
+        src="\src\imagens\72527660-6cf9-45e8-9e89-93c85ba72111.jpeg"
+>>>>>>> ed64a95e3181932ae102c32df61c8a2a048194b0
           alt="Cookies"
         />
         <div class="card-body">
@@ -29,7 +56,11 @@
       </div>
       <div class="card">
         <img
+<<<<<<< HEAD
           src="/src/imagens/30e8b0e4-0e95-4b3d-a046-02abb5afd5a2.jpeg"
+=======
+          src="\src\imagens\30e8b0e4-0e95-4b3d-a046-02abb5afd5a2.jpeg"
+>>>>>>> ed64a95e3181932ae102c32df61c8a2a048194b0
           alt="Cupcakes"
         />
         <div class="card-body">
@@ -48,6 +79,8 @@
 .formulario {
   display: grid;
   grid-template-columns: 1fr, 1fr;
+  background-color: #F3EBDA;
+  border-radius: 5%;
 }
 
 .container {
@@ -69,8 +102,9 @@
   flex-direction: column;
   width: 300px;
   padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+
+
+  
 }
 
 .form-group {

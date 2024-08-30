@@ -169,6 +169,7 @@
 </template>
 
 <style scoped>
+
 body {
   font-family: sans-serif;
   margin: 0;
