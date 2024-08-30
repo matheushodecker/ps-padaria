@@ -29,26 +29,28 @@
 
       <section class="section section--cards">
         <div class="container">
-          <div class="card">
-            <img
-              class="card__image"
-              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Fvetores-gratis%2Fhomem-escrevendo-no-papel_1001954.htm&psig=AOvVaw1Kq_qX2oK9_u8R7H4Q7Xg8&ust=1689771451223000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE&opi=89978449&form=W_h&surl=1&oi=image&q=homem%20escrevendo%20em%20papel&cshid=57784584-4195-4025-9c22-ef93890745b9&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE"
-              alt="Registro de Vendas"
-            />
-            <h3 class="card__title">Registro de Vendas</h3>
-            <p class="card__text">Registre todas as vendas de pão e produtos de padaria.</p>
-            <button class="card__button">Detalhes</button>
-          </div>
+          <div class="grid__cards">
+            <div class="card card1">
+              <img
+                class="card__image"
+                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Fvetores-gratis%2Fhomem-escrevendo-no-papel_1001954.htm&psig=AOvVaw1Kq_qX2oK9_u8R7H4Q7Xg8&ust=1689771451223000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE&opi=89978449&form=W_h&surl=1&oi=image&q=homem%20escrevendo%20em%20papel&cshid=57784584-4195-4025-9c22-ef93890745b9&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE"
+                alt="Registro de Vendas"
+              />
+              <h3 class="card__title">Registro de Vendas</h3>
+              <p class="card__text">Registre todas as vendas de pão e produtos de padaria.</p>
+              <button class="card__button">Detalhes</button>
+            </div>
 
-          <div class="card">
-            <img
-              class="card__image"
-              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Fvetores-gratis%2Fhomem-escrevendo-no-papel_1001954.htm&psig=AOvVaw1Kq_qX2oK9_u8R7H4Q7Xg8&ust=1689771451223000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE&opi=89978449&form=W_h&surl=1&oi=image&q=homem%20escrevendo%20em%20papel&cshid=57784584-4195-4025-9c22-ef93890745b9&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE"
-              alt="Relatório de Vendas"
-            />
-            <h3 class="card__title">Relatório de Vendas</h3>
-            <p class="card__text">Acompanhe e analise suas vendas de forma prática e eficiente.</p>
-            <button class="card__button">Ver</button>
+            <div class="card card2">
+              <img
+                class="card__image"
+                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Fvetores-gratis%2Fhomem-escrevendo-no-papel_1001954.htm&psig=AOvVaw1Kq_qX2oK9_u8R7H4Q7Xg8&ust=1689771451223000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE&opi=89978449&form=W_h&surl=1&oi=image&q=homem%20escrevendo%20em%20papel&cshid=57784584-4195-4025-9c22-ef93890745b9&ved=0CBEQjRxqFwoTCNjqyMW7iv4CFQAAAAAdAAAAABAE"
+                alt="Relatório de Vendas"
+              />
+              <h3 class="card__title">Relatório de Vendas</h3>
+              <p class="card__text">Acompanhe e analise suas vendas de forma prática e eficiente.</p>
+              <button class="card__button">Ver</button>
+            </div>
           </div>
         </div>
       </section>
@@ -140,6 +142,7 @@
 </template>
 
 <style>
+
 .page {
   font-family: 'Arial', sans-serif;
 }
@@ -171,10 +174,6 @@
   padding: 20px 0;
 }
 
-.section {
-  padding: 30px 0;
-}
-
 .section__title {
   font-size: 24px;
   font-weight: bold;
@@ -186,18 +185,17 @@
   line-height: 1.5;
 }
 
-.section--cards {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
+.grid__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsividade para vários tamanhos de tela */
+  gap: 20px; /* Espaçamento entre os cartões */
+  padding: 10px;
 }
 
-.card {
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.card1, .card2 {
+ 
   padding: 20px;
-  width: calc(50% - 10px);
+  text-align: center;
 }
 
 .card__image {
