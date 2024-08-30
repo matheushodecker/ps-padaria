@@ -10,9 +10,7 @@
         Registre-se agora para ter acesso exclusivo a produtos frescos e deliciosos da nossa
         padaria.
       </p>
-    </div>
-    <div class="title">
-      <h1>Cadastro de Contato</h1>
+  
       <p>Preencha o formulário abaixo para se cadastrar e receber novidades da padaria.</p>
     </div>
     <section class="formulario">
@@ -25,11 +23,7 @@
           <label for="email">E-mail:</label>
           <input type="email" id="email" placeholder="Digite seu e-mail aqui" />
         </div>
-        <div class="form-group">
-          <label for="message">Mensagem:</label>
-          <textarea id="message" placeholder="Digite sua mensagem aqui"></textarea>
-        </div>
-        <button class="btn">Enviar Mensagem</button>
+        <button class="btn">cadastrar</button>
       </div>
     </section>
   </div>
@@ -45,7 +39,7 @@
     <div class="content">
       <div class="card">
         <img
-          src="https://images.unsplash.com/photo-1586497540021-40ffb083909a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+        src="\src\imagens\72527660-6cf9-45e8-9e89-93c85ba72111.jpeg"
           alt="Cookies"
         />
         <div class="card-body">
@@ -58,7 +52,7 @@
       </div>
       <div class="card">
         <img
-          src="https://images.unsplash.com/photo-1576618249529-07f20b72f1a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          src="\src\imagens\30e8b0e4-0e95-4b3d-a046-02abb5afd5a2.jpeg"
           alt="Cupcakes"
         />
         <div class="card-body">
