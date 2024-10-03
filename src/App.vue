@@ -9,9 +9,9 @@ import { RouterView } from 'vue-router'
   <header class="fixed">
     <img src="/src/imagens/logo.png" alt="grao de ouro logo" class="logo" width="125" height="125" />
     <nav class="nav">
-      <a href="/" class="nav-link">Home</a>
+      <a href="/home" class="nav-link">Home</a>
       <a href="Loja" class="nav-link">Loja</a>
-      <a href="/cadastro" class="nav-link">Cadastro</a>
+     
       <a href="/vendas" class="nav-link">Vendas</a>
       <span class="cart-icon">🛒</span>
       <span class="cart-count">(0)</span>
@@ -79,6 +79,7 @@ header {
   background-color: #fff;
   padding: 20px;
   border-bottom: 1px solid #ddd;
+  position: absolute;
 }
 
 .logo{

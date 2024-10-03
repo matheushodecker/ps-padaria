@@ -5,70 +5,26 @@
 <template>
 <div class="container">
     <div class="title">
-      <h1>Cadastro de Clientes</h1>
-      <p>
-        Registre-se agora para ter acesso exclusivo a produtos frescos e deliciosos da nossa
-        padaria.
-      </p>
-  
-      <p>Preencha o formulário abaixo para se cadastrar e receber novidades da padaria.</p>
+      <h1>login
+      </h1>
+     
     </div>
     <section class="formulario">
       <div class="form">
-        <div class="form-group">
-          <label for="nome">Nome:</label>
-          <input type="nome" id="nome" placeholder="Digite seu nome aqui" />
-        </div>
         <div class="form-group">
           <label for="email">E-mail:</label>
           <input type="email" id="email" placeholder="Digite seu e-mail aqui" />
         </div>
         <div class="form-group">
           <label for="senha">senha:</label>
-          <input type="senha" id="senha" placeholder="Digite sua senha aqui" />
+          <input type="senha" id="senha" placeholder="Digite seu e-mail aqui" />
         </div>
-        <button class="btn"><a href="/home">cadastrar</a></button>
+        <button class="btn"><a href="/home">entrar</a></button>
+        <a href="/cadastro">ainda nao tem conta</a>
       </div>
     </section>
   </div>
 
-  <div class="container">
-    <div class="header">
-      <h1>Cadastro de Clientes</h1>
-      <p>
-        Registre facilmente os dados dos seus clientes para um atendimento personalizado e
-        eficiente.
-      </p>
-    </div>
-    <div class="content">
-      <div class="card">
-        <img
-        src="\src\imagens\72527660-6cf9-45e8-9e89-93c85ba72111.jpeg"
-          alt="Cookies"
-        />
-        <div class="card-body">
-          <h2>Registro de Vendas</h2>
-          <p>
-            Tenha controle total sobre suas vendas, registrando cada transação de forma simples e
-            segura.
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img
-          src="\src\imagens\30e8b0e4-0e95-4b3d-a046-02abb5afd5a2.jpeg"
-          alt="Cupcakes"
-        />
-        <div class="card-body">
-          <h2>Cadastro de Produto</h2>
-          <p>
-            Adicione e gerencie seus produtos de forma prática, mantendo seu catálogo sempre
-            atualizado e organizado.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
 </template>
 
 <style>

@@ -7,31 +7,37 @@
             <img alt="Pão em destaque 1" src="/src/imagens/caneta.jpeg" />
             <h3>Pão em destaque 1</h3>
             <p>R$10,00</p>
+            <p>restam 50 em estoque</p>
           </div>
           <div class="item">
             <img alt="Pão em destaque 2" src="/src/imagens/feb76bc5-6389-47f5-b9f1-4612fb44b1a1.jpeg"/>
             <h3>Pão em destaque 2</h3>
             <p>R$12,00</p>
+            <p>restam 39 em estoque</p>
           </div>
           <div class="item">
             <img alt="Pão em destaque 3" src="/src/imagens/ee0b56d0-48fb-49e9-abdb-d7bdfab1abf7.jpeg"/>
             <h3>Pão em destaque 3</h3>
             <p>R$15,00</p>
+            <p>restam 0 em estoque</p>
           </div>
           <div class="item">
             <img alt="Pão em destaque 4" src="/src/imagens/0bc39858-cec0-471c-a29b-460ec69d6099.jpeg"/>
             <h3>Pão em destaque 4</h3>
             <p>R$8,00</p>
+            <p>restam 73 em estoque</p>
           </div>
           <div class="item">
             <img alt="Pão em destaque 5" src="/src/imagens/fdc79e9c-c0c3-43d9-b64a-fd0e209aa959.jpeg"/>
             <h3>Pão em destaque 5</h3>
             <p>R$12,00</p>
+            <p>restam 132 em estoque</p>
           </div>
           <div class="item">
             <img alt="Pão em destaque 6" src="/src/imagens/06033385-aea0-42de-8d58-431b460cff17.jpeg"/>
             <h3>Pão em destaque 6</h3>
             <p>R$8,00</p>
+            <p>restam 22 em estoque</p>
           </div>
         </div>
       </div>
